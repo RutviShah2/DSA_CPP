@@ -11,7 +11,6 @@ for (int i=0; i<arr.size(); i++)
 {
     cout<< arr[i]<<endl;
 }
-
     auto it = find(arr.begin(), arr.end(), element);
     if (it != arr.end()) {
         arr.erase(it);
