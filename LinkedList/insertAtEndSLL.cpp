@@ -4,6 +4,7 @@ struct Node {
     int data;
     Node* next;
 };
+
 void insertAtEnd(Node*& head, int value) {
     Node* newNode = new Node();
     newNode->data = value;
@@ -40,3 +41,4 @@ int main() {
     display(head);
     return 0;
 }
+
