@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 struct Node {
     int data;
     Node* next;
@@ -30,3 +31,4 @@ int main() {
     display(head);
     return 0;
 }
+
