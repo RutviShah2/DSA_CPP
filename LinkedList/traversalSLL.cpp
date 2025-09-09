@@ -6,13 +6,12 @@ public:
     Node* next;
 
     Node(int new_data) {
-        this->data = new_data;
-        this->next = nullptr;
+        data = new_data;
+        next = nullptr;
     }
 };
 
 void traverseList(Node* head) {
-
     while (head != nullptr) {
         cout << head->data << " ";
         head = head->next;
@@ -29,4 +28,5 @@ int main() {
     traverseList(head);
 
     return 0;
+
 }
